@@ -1,0 +1,20 @@
+{
+  "name": "express_challenge_two",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "test": "echo $GREETING , arguments passed are: ",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Nadine Kraft",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
