@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./index.js",
-    "test": "echo $GREETING , arguments passed are: ",
-    "start": "node index.js"
+    "start": "node index.js",
+    "express_challenge_two.js": "node index.js"
   },
   "keywords": [],
   "author": "Nadine Kraft",

@@ -8,12 +8,12 @@ router.get('/', function(req, res) {
 
 // Define the foo route
 router.get('/foo', function(req, res) {
-  res.send('Hello');
+  res.send({ response: 'Hello' });
 });
 
 // Define the bar route
 router.get('/bar', function(req, res) {
-  res.send('World');
+  res.send({ response: 'World' });
 });
 
 
